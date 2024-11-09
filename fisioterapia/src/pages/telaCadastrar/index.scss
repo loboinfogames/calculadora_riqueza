@@ -1,0 +1,180 @@
+.telacadastrar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh ;
+    .protecao{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100vh;
+        background-color: #F9F4F4;
+        gap: 100px;
+       
+
+        .direita{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            background-color: #FFFFFF;
+
+            .cima{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 50px 0px;
+                width: 100%;
+                
+                .inputes{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    background-color: #001429;
+                    padding: 10px 90px;
+                    border-radius: 50px;
+
+                    input{
+                        padding: 5px 10px;
+                        border-radius: 10px;
+                        background-color: #F9F4F4;
+                        outline: none;
+                        border: none;
+                        width: 500px;
+                        font: 300 14px Inter;
+                    }
+
+                    h1{
+                        color: #FFFFFF;
+                        font: 300 20px Inter;
+                    }
+                    
+                }
+                .botao{
+                  margin-top: 40px;
+                  padding: 0px 0px 0px 720px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 30px;
+                    button{
+                        padding: 15px 20px;
+                        background-color: #08B4AC;
+                        color: #FFFFFF;
+                        border-radius: 4px;
+                        font: 300 16px Inter;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    
+                    }
+                }
+        
+            }
+            .popup-background {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                background-color: rgba(0, 0, 0, 0.5); 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 999;
+            }
+            
+            .popup {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                justify-content: space-between;
+                width: 40%;
+                height: auto;
+                background-color: white;
+                box-shadow: 3px 3px 5px gray;
+                padding: 20px 0px 20px 0px;
+
+                .mensagem{
+                    display: flex;
+                    flex-direction: row;
+                    h1{
+                        padding-left: 55px;
+                        font: 900 25px Inter;
+                    }
+                    img{
+                        padding-left: 390px;
+                        
+                    }
+
+                }
+                .mensage{
+                    margin: 30px;
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    height: 15vh;
+                    background-color: #08b4ab6b;
+                    padding: 20px;
+                    p{
+                        font: 900 19px Inter;
+                        color: #08B4AC;
+                    }
+                }
+
+                .botao{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    h1{
+                        font: 900 15px Inter;
+                        margin-left: 50px;
+                    }
+                    .button{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center ;
+                        gap: 10px;
+                        padding-top: 20px;
+                        button{
+                            border-radius: 6px;
+                            background-color: #08B4AC;
+                        }
+                    }
+                }
+            }
+        }
+        .baixo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            table {
+                width: 90%;
+                border-collapse: collapse;
+                
+            }
+            
+            table, th, td {
+                border: 1px solid #000;
+                
+            }
+            
+            th, td {
+                padding: 12px;
+                text-align: left;
+            }
+            
+            th {
+                background-color: #FFFFFF;
+                color: #08B4AC;
+            }
+            td{
+                background-color: #D9D9D9;
+            }
+         
+        }
+    }
+
+}

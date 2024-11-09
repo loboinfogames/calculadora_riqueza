@@ -1,0 +1,19 @@
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
+    
+
+    h1{
+        font: 400 35px roboto;
+        color: #313131;
+    }
+
+    h2{
+        font: 700 20px roboto;
+        color: #313131;
+    }
+}

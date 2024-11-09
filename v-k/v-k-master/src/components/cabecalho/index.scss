@@ -1,0 +1,21 @@
+.mae {
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        background-color: #313131;
+
+        img{
+
+            width: 64px;
+            height: 64px;
+           padding: 20px 10px 10px 30px;
+
+        }
+
+        h2 {
+            color: #EDF2F4;
+        }
+    }
+}
